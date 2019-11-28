@@ -1,0 +1,237 @@
+#portfolio .region-container {
+  position: relative;
+}
+
+.region-container {
+    margin-bottom: 16px;
+}
+
+.section-subheading {
+    margin-bottom: 24px;
+}
+
+#portfolio .region-container .line {
+  width: 80%;
+  height: 4px;
+  background-color: #000000;
+}
+
+#portfolio .region-container .cityhall {
+  top: 0px;
+  left: 25%;
+  opacity: 0.3;
+  -webkit-transform: scale(2.5);
+  transform: scale(2.5);
+}
+
+#portfolio .region-container .gv {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  z-index: 10;
+}
+
+#portfolio .portfolio-item {
+  right: 0;
+  margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+
+}
+
+.modals {
+  cursor: pointer;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: rgba(18, 167, 101, 0.9);
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+.portfolio-modal {
+    overflow-y: scroll;
+}
+
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content {
+  font-size: 20px;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 25%;
+  text-align: center;
+  color: white;
+}
+
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  .keylo-key {
+  height: 80px;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+  bottom: -25%;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#portfolio * {
+  z-index: 2;
+}
+
+@media (min-width: 767px) {
+  #portfolio .communities-container {
+    width: 60%;
+  }
+}
+
+.portfolio-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+
+.portfolio-modal .modal-content {
+  padding: 100px 0 40px;
+  text-align: center;
+}
+
+.portfolio-modal .modal-content .modal-heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.portfolio-modal .modal-content .line {
+  width: 80%;
+  height: 4px;
+  background-color: #000000;
+  margin-bottom: 15px;
+}
+
+.portfolio-modal .modal-content h2 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+  font-size: 16px;
+  font-style: italic;
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content button {
+  cursor: pointer;
+}
+
+.portfolio-modal .modal-content .button {
+  border-radius: 2px;
+  height: 50px;
+  width: 240px;
+  margin-bottom: 25px;
+}
+
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+.portfolio-modal .close-modal .lr {
+  /* Safari and Chrome */
+  z-index: 1051;
+  width: 1px;
+  height: 75px;
+  margin-left: 35px;
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #212529;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+  /* Safari and Chrome */
+  z-index: 1052;
+  width: 1px;
+  height: 75px;
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-color: #212529;
+}
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+  .portfolio-modal {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .portfolio-modal .modal-dialog {
+    max-width: 80%;
+  }
+}
+
+.portfolio-hover {
+  z-index: 10 !important; 
+}
